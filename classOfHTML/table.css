@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+   /* border: 1px solid;*/
+    border-radius: 1em;
+    overflow: hidden;
+}
+th{
+    background-color: #215a8e;
+    color: white;
+    text-align: left;
+    padding: 1em;
+    text-transform: uppercase;
+}
+td,th{
+    padding: 1em;
+}
+tr:nth-child(even){
+    background-color: pink;
+}
