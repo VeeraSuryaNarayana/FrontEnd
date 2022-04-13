@@ -2,6 +2,7 @@ h3{
     text-align: center;
 }
 table{
+   
     text-align: center;
     width: 50%;
     height: 20%;
@@ -19,13 +20,18 @@ tr,td,th{
     border: 1px solid;
     text-align: center;
 }
-
+.end{
+    height: 60%;
+}
 #top{
+    height: ;
     color: green;
     background: green;
+    
 }
 #bottom{
     background: red;
+    height: 1px;
 }
 img{
     float: inline-start;
