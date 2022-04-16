@@ -1,5 +1,9 @@
 
 
+.background{
+    /* z-index: 0; */
+}
+
 .info{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -11,18 +15,32 @@
     border-radius: 10px;
     /* width: 10%; */
     /* height: 120px; */
+    /* font-family: ; */
+}
+h4{
+    color: #f979aa;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h2{
     text-align: center;
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: bookman old style; 
     /* font-weight: bolder; */
     font-size: 80px;
-    color: blue;
+    color: #165e6e
 }
 h3{
+    color: #c515b5;
     margin: 10px;
     padding: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.key-points{
+    font-style: normal;
+    color: #a95d59;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #status{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -51,7 +69,10 @@ h3{
 .sub:hover{
     color: red;
 }
-
+a:hover{
+    opacity: 60%;
+    visibility: black;
+}
 #mine{
     padding: 10px;
     width: 250px;
@@ -59,13 +80,84 @@ h3{
     float: right;
 }
 .about{
-    display: block;
-    
+    padding: auto;
+    text-align: center;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Fhd&psig=AOvVaw2zrVDU4wO86euppVfJEYRV&ust=1650196938088000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLjqwOnEmPcCFQAAAAAdAAAAABAD);
+    /* opacity: 60%; */
 }
 li{
-    font-size: medium;
+    font-weight: bold;
     padding: 2px;
     margin: 10px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 
+}
+#projects,#Skills,#Experience{
+    /* text-align: center; */
+    margin: 10px;
+    padding: 10px;
+    font-variant: small-caps;
+    position: inherit;
+    color: blueviolet;
+    font-size: 30px;
+}
+.p-main{
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#descrption{
+    text-decoration-color: blue;
+
+}
+#password-img{
+    width: 350px;
+    height: 250px;
+    float: right;
+    padding: auto;
+    border: 2px;
+    /* position: absolute; */
+    box-shadow: lightslategray 15px 10px 13px 7px;
+}
+.azad-img{
+    width: 250px;
+    height: 200px;
+    float: left;
+    padding: auto;
+    border: 2px;
+    border-radius: 4px;
+    /* position: absolute; */
+    box-shadow: lightslategray 15px 10px 13px 7px;
+    margin-right: 10%;
+}
+#coupon-img{
+    margin-right: 30px;
+    width: 350px;
+    height: 250px;
+    float: left;
+    padding: auto;
+    border: 2px;
+    /* position: absolute; */
+    box-shadow: lightslategray 15px 10px 13px 7px;
+}
+.meil-img{
+    margin-right: 30px;
+    width: 250px;
+    height: 200px;
+    float: left;
+    padding: auto;
+    border: 2px;
+    border-radius: 4px;
+    margin-right: 10%;
+    box-shadow: lightslategray 15px 10px 13px 7px;
+    margin-bottom: 20%;
+}
+.spl-img{
+    margin: 10px;
+    border: 2px solid;
+    align-items: center;
+    /* height: 600px; */
+    width: 300px;
+    float: right;
 }
