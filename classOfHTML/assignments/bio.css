@@ -1,7 +1,8 @@
 
 
 body{
-    background-image: -moz-linear-gradient(pink,rgb(169, 220, 240),white,rgb(255, 220, 245));
+   
+    background-image: -moz-linear-gradient();
     height: 760px;
     background-position: center;
     position: relative;
@@ -11,7 +12,7 @@ body{
 }
 
 .info{
-    position: ;
+    position: relative;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     /* position: fixed; */
@@ -25,7 +26,7 @@ body{
     /* font-family: ; */
 }
 h4{
-    color: #f979aa;
+    color: darkblue;
     font-size: 25px;
     font-style: italic;
     font-weight: bold;
@@ -36,10 +37,11 @@ h2{
     font-family: bookman old style; 
     /* font-weight: bolder; */
     font-size: 50px;
-    color: #165e6e
+    color: brown;
 }
 h3{
-    color: #c515b5;
+    color: red;
+    font-size: 40px;
     margin: 10px;
     padding: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -87,11 +89,18 @@ a:hover{
     float: right;
 }
 #about{
-    text-align: center;
-   margin: auto;
-   padding: auto;
+    background-image: url(coffe.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: left;
+    font-style: italic;
+    border: 5px;
+    border-radius: 15px;
+   margin: 100px;
+   padding: 50px;
    font-size: 30px;
    font-family: Georgia,serif;
+   color: black;
 }
 li{
     font-weight: bold;
@@ -101,22 +110,44 @@ li{
     font-size: 20px;
 
 }
-#projects,#Experience{
+#projects{
     /* text-align: center; */
     margin: 10px;
     padding: 10px;
     font-variant: small-caps;
     position: inherit;
-    color: #ff9933;
+    color: black;
     font-size: 30px;
 }
-#Skills{
-    font-family: tahoma;
+#Experience{
+    /* background-image: url(experience.jpg.jpeg);
+    background-size: 100%;
+    height: 100%; */
+    /* background-repeat: no-repeat; */
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: 10px;
     padding: 10px;
     font-variant: small-caps;
     position: inherit;
-    color: red;
+    color: purple;
+    /* font-size: 30px; */
+}
+#Skills{
+    background-image: url(skills.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* width: 400px; */
+    font-family: tahoma;
+    border: 2px;
+    border-radius: 50px;
+    margin: 10px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    font-variant: small-caps;
+    /* position: inherit; */
+    color: lightgreen;
     font-size: 30px;
 }
 #meil-exp{
@@ -159,7 +190,7 @@ li{
 #coupon-img{
     margin-right: 30px;
     width: 350px;
-    height: 270px;
+    height: 300px;
     float: left;
     padding: auto;
     border: 2px;
@@ -167,7 +198,7 @@ li{
     box-shadow: lightslategray 15px 10px 13px 7px;
 }
 u{
-    color: #158fad;
+    color: rgba(200, 55, 100, 3);
 }
 .meil-img{
     margin-right: 30px;
