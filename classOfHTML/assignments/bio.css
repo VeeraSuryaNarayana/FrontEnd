@@ -220,10 +220,24 @@ u{
     width: 300px;
     float: right;
 }
-/* .skill-img{
-    margin: 10px;
-    border: 2px solid;
-    height: 300px;
-    width: 400px;
-    float: right; 
-} */
+.reachMe{
+    /* height: 10px; */
+    text-align: left;
+    /* display: grid;
+    grid-template-columns: auto auto auto auto; */
+    margin: auto;
+    /* left: 300px; */
+    background-color: rgb(245, 241, 237);
+    /* box-sizing: border-box; */
+    border: 2px;
+    border-radius: 5px;
+    /* align-items: center; */
+    padding: 15%;
+}
+.icons{
+    flex-direction: column;
+}
+.reachMe:hover{
+    cursor: pointer;
+    background-color: rgba(225, 226, 233, 0);
+}
