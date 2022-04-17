@@ -5,9 +5,13 @@ body{
     height: 760px;
     background-position: center;
     position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* overflow: hidden; */
 }
 
 .info{
+    position: ;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     /* position: fixed; */
@@ -31,7 +35,7 @@ h2{
     text-align: center;
     font-family: bookman old style; 
     /* font-weight: bolder; */
-    font-size: 80px;
+    font-size: 50px;
     color: #165e6e
 }
 h3{
@@ -82,27 +86,45 @@ a:hover{
     border-radius: 25%;
     float: right;
 }
-.about{
-    padding: auto;
+#about{
     text-align: center;
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Fhd&psig=AOvVaw2zrVDU4wO86euppVfJEYRV&ust=1650196938088000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCLjqwOnEmPcCFQAAAAAdAAAAABAD);
-    /* opacity: 60%; */
+   margin: auto;
+   padding: auto;
+   font-size: 30px;
+   font-family: Georgia,serif;
 }
 li{
     font-weight: bold;
     padding: 2px;
     margin: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 
 }
-#projects,#Skills,#Experience{
+#projects,#Experience{
     /* text-align: center; */
     margin: 10px;
     padding: 10px;
     font-variant: small-caps;
     position: inherit;
-    color: blueviolet;
+    color: #ff9933;
+    font-size: 30px;
+}
+#Skills{
+    font-family: tahoma;
+    margin: 10px;
+    padding: 10px;
+    font-variant: small-caps;
+    position: inherit;
+    color: red;
+    font-size: 30px;
+}
+#meil-exp{
+    margin: 10px;
+    padding: 10px;
+    font-variant: small-caps;
+    position: inherit;
+    color: #ff9933;
     font-size: 30px;
 }
 .p-main{
@@ -125,11 +147,11 @@ li{
 }
 .azad-img{
     width: 250px;
-    height: 200px;
+    height: 250px;
     float: left;
     padding: auto;
     border: 2px;
-    border-radius: 4px;
+    border-radius: 8px;
     /* position: absolute; */
     box-shadow: lightslategray 15px 10px 13px 7px;
     margin-right: 10%;
@@ -137,21 +159,24 @@ li{
 #coupon-img{
     margin-right: 30px;
     width: 350px;
-    height: 250px;
+    height: 270px;
     float: left;
     padding: auto;
     border: 2px;
     /* position: absolute; */
     box-shadow: lightslategray 15px 10px 13px 7px;
 }
+u{
+    color: #158fad;
+}
 .meil-img{
     margin-right: 30px;
-    width: 250px;
-    height: 200px;
-    float: left;
+    width: 300px;
+    height: 300px;
+    float: right;
     padding: auto;
     border: 2px;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-right: 10%;
     box-shadow: lightslategray 15px 10px 13px 7px;
     margin-bottom: 20%;
