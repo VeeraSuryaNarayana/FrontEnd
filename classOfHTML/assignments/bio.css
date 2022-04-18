@@ -16,11 +16,7 @@ body{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     /* position: fixed; */
-    margin: 10px;
-    border: 1px;
-    background-color: paleturquoise;
-    overflow: hidden;
-    border-radius: 10px;
+   
     /* width: 10%; */
     /* height: 120px; */
     /* font-family: ; */
@@ -235,7 +231,17 @@ u{
     padding: 15%;
 }
 .icons{
-    flex-direction: column;
+    font-size: larger;
+    font-weight: bold;
+   padding: 20px;
+    width: 90%;
+    /* height: 50px; */
+    border: 1px;
+    background-color: rgb(173, 158, 139);
+    overflow: hidden;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
 }
 .reachMe:hover{
     cursor: pointer;
