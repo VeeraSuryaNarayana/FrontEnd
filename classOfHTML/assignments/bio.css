@@ -8,18 +8,21 @@ body{
     position: relative;
     margin-left: 10%;
     margin-right: 10%;
+    
     /* overflow: hidden; */
 }
 
 .info{
-    position: absolute;
+    background-color: rgb(173, 158, 139);
+    overflow: hidden;
+    /* position: absolute; */
+    padding: 10px;
+    /* max-width: 10px; */
+    border: 2px, rgb(236, 14, 14);
+    border-radius: 10px;
     display: grid;
+    justify-content: space-around;
     grid-template-columns: auto auto auto auto auto;
-    /* position: fixed; */
-   
-    /* width: 10%; */
-    /* height: 120px; */
-    /* font-family: ; */
 }
 h4{
     color: darkblue;
