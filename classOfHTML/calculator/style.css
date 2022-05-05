@@ -1,24 +1,27 @@
 .container{
+    background-color: rgb(145, 204, 220);
+    padding: 10px;
     max-width: 500px;
     margin: 10px auto 0 auto;
-    box-shadow: 0px 0px 43px 17px rgb(91, 117, 133) ;
+    box-shadow: 0px 0px 43px 17px rgb(171, 171, 171) ;
 }
 #display{
+    overflow: hidden;
+    background-color: rgb(211, 135, 146);
     text-align: right;
     height: 80px;
     line-height: 80px;
-    /* overflow: hidden; */
-    margin: 5px;
-    padding: 10px;
     font-size: 25px;
     border-radius: 4px;
-    border: 0.5px solid rgb(67, 44, 60);
+    border: 0.5px solid rgb(167, 155, 163);
 }
 .button{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+   
 }
 .btn{
+    background-color: white;
     border: 0.5px solid rgb(67, 44, 60);
     line-height: 100px;
     text-align: center;
@@ -28,12 +31,12 @@
     margin: 2px;
 }
 #equal{
-    background-color: blue;
+    background-color: rgb(98, 170, 113);
     color: white;
 }
 
 .btn:hover{
-    background-color: rgb(4, 32, 43);
+    background-color: rgb(53, 60, 48);
     color: white;
     transition: 0.5s ease-in-out;
 }
