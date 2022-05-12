@@ -1,22 +1,27 @@
-
+*{
+    margin-left: 2%;
+    margin-right: 2%;
+    align-items: center;
+    max-width: auto;
+}
 
 body{
     background-image: -moz-linear-gradient();
     height: 760px;
     background-position: center;
     position: relative;
-    margin-left: 20%;
-    margin-right: 20%;
-    
     /* overflow: hidden; */
 }
-.nav-item{
-    padding: auto;
+/* .navbar-nav{
+   
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 5px;
     margin: 5px;
-    color: blue;
+    color: rgb(117, 117, 126);
     font-size: larger;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+} */
 
 h4{
     color: darkblue;
@@ -74,6 +79,9 @@ h3{
 a:hover{
     opacity: 60%;
     visibility: black;
+}
+a{
+    color: #e28f8a;
 }
 #mine{
     padding: 10px;
@@ -136,7 +144,7 @@ li{
     border: 2px;
     border-radius: 50px;
     margin: 10px;
-    padding-left: 150px;
+    padding-left: 250px;
     padding-bottom: 50px;
     font-variant: small-caps;
     /* position: inherit; */
@@ -183,7 +191,7 @@ li{
 #coupon-img{
     margin-right: 30px;
     width: 350px;
-    height: 300px;
+    height: 350px;
     float: left;
     padding: auto;
     border: 2px;
@@ -191,7 +199,11 @@ li{
     box-shadow: lightslategray 15px 10px 13px 7px;
 }
 u{
+    padding: 0px;
+    margin: 0px;
     color: rgba(200, 55, 100, 3);
+    position: static;
+    padding: 1px;
 }
 .meil-img{
     margin-right: 30px;
@@ -213,32 +225,25 @@ u{
     width: 300px;
     float: right;
 }
-.reachMe{
-    /* height: 10px; */
-    text-align: left;
-    /* display: grid;
-    grid-template-columns: auto auto auto auto; */
-    margin: auto;
-    /* left: 300px; */
-    background-color: rgb(245, 241, 237);
-    /* box-sizing: border-box; */
-    border: 2px;
-    border-radius: 5px;
-    /* align-items: center; */
-    padding: 15%;
+#contact{
+    text-align: center;
+    float: right;
+    color: white;
+    /* margin: 5px; */
+    
 }
-.icons,.navbar{
+.navbar{
     font-size: larger;
     font-weight: bold;
-   padding: 20px;
-    width: 90%;
+   padding: 2px;
+    width: 80%;
     height: 50px;
     border: 1px;
     background-color: rgb(221, 127, 4);
-    overflow: hidden;
+    /* overflow: hidden; */
     border-radius: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 .reachMe:hover{
     cursor: pointer;
