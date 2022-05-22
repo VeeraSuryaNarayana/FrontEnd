@@ -9,6 +9,10 @@
         height: 100%;
         /* margin-top: 10%; */
     }
+    .player-container{
+        height: 10%;
+        width: 10%;
+    }
 
   }
   .app {
@@ -18,9 +22,7 @@
     align-items: center;
     font-family: "Montserrat", sans-serif;
   }
-  /* .medium-mins, .long-mins, .short-mins{
-      color: tomato;
-  } */
+  
   .time-select,
   .sound-picker {
     height: 80%;
